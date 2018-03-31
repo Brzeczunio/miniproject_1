@@ -61,6 +61,7 @@ Manualne przygotowanie czystego systemu (CentOS)
   wget https://chromedriver.storage.googleapis.com/2.37/chromedriver_linux64.zip
   unzip chromedriver_linux64.zip
   rm -f chromedriver_linux64.zip
+  sudo mv chromedriver /usr/local/bin/
 ```
 
 - Instalacja python-pip:
