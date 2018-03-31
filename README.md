@@ -58,6 +58,8 @@ Manualne przygotowanie czystego systemu (CentOS) do projektu:
 - Instalacja python-pip:
 
 ```
+  sudo yum install epel-release
+  sudo yum update -y
   sudo yum install python-pip -y
 ```
 
