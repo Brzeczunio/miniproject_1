@@ -8,9 +8,9 @@ Manualne przygotowanie czystego systemu (CentOS) do projektu:
 ```
   su -
   yum groupinstall "GNOME Desktop" -y
-  systemctl set-default graphical.target
+  systemctl isolate graphical.target #odpala GUI
+  systemctl set-default graphical.target #ustawia odpalanie GUI przy uruchomieniu systemu
   systemctl get-default #powinno zwrócić: graphical.target
-  systemctl isolate graphical.target
   logout
 ```
 
