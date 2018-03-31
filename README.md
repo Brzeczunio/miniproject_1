@@ -3,6 +3,17 @@ Pierwszy mini projekt na zaliczenie podyplomówki "Tester Oprogramowania - WSB".
 
 Manualne przygotowanie czystego systemu (CentOS) do projektu:
 ---
+- Instalacja GUI w systemie (CentOS)
+
+```
+  su -
+  yum groupinstall "GNOME Desktop" -y
+  systemctl set-default graphical.target
+  systemctl get-default #powinno zwrócić: graphical.target
+  systemctl isolate graphical.target
+  logout
+```
+
 - Aktualizacja systemu:
 
 ```
