@@ -1,7 +1,7 @@
-# Sprawdzenie pierwszego zestawu pytań quizu ISTQB na stronie http://kamil-kasprzak.com/istqb-quizzes/
+# Sprawdzenie pierwszego zestawu pytań z quizu ISTQB na stronie http://kamil-kasprzak.com/istqb-quizzes/
 
 Przypadki testowe:
-Sprawdzenie purporowego quizu ISTQB bez sprawdzania odpowiedzi
+Sprawdzenie purporowego quizu ISTQB bez sprawdzania odpowiedzi na bieżąco
 
 Kroki:
   1. Wejdź na stronę: "http://kamil-kasprzak.com/istqb-quizzes/""
