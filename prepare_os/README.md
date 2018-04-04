@@ -62,3 +62,25 @@ Manualne przygotowanie czystego systemu (CentOS)
   sudo yum update -y
   sudo yum install python-pip -y
 ```
+
+Ustawienie większej rozdzielczości przy wykorzystaniu VirtualBox'a
+---
+- Dodanie rozdzielczości HD
+
+```
+  ls /usr/share/X11/xorg.conf.d
+  vim /usr/share/X11/xorg.conf.d/10-monitor.conf
+```
+W pliku dodaj:
+```
+  Section "Screen"
+    Identifier	"Default Screen"
+    Device		"VirtualBox graphics card"
+    Monitor		"Generic Monitor"
+    DefaultDepth	24
+    SubSection "Display"
+      Depth		24
+      Modes		"1920x1080"
+    EndSubSection
+  EndSection
+```
