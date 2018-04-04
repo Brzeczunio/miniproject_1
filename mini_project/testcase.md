@@ -38,4 +38,4 @@ Kroki:
   32. Naciśnij na przycisk: "ZAKOŃCZ"
 
 Oczekiwany rezultat:
-ZOstanie wyświetlony komunikat o treści: "UDZIELONO POPRAWNEJ ODPOWIEDZI NA 15 Z 15 PYTAŃ"
+Zostanie wyświetlony komunikat o treści: "UDZIELONO POPRAWNEJ ODPOWIEDZI NA 15 Z 15 PYTAŃ"
