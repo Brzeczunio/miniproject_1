@@ -8,7 +8,7 @@ class Page(object):
     def __init__(self, driver, wait=30, base_url='http://getistqb.com/'):
         self.base_url = base_url
         self.driver = driver
-        self.wait = WebDriverWait(driver,wait)
+        self.wait = WebDriverWait(driver, wait)
 
     def find_element(self, locator):
         return self.wait.until(EC.element_to_be_clickable(locator))
