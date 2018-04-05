@@ -13,7 +13,7 @@ class Page(object):
     def find_element(self, locator):
         return self.wait.until(EC.element_to_be_clickable(locator))
 
-    def open(self,url):
+    def open(self, url):
         url = self.base_url + url
         self.driver.get(url)
 
@@ -23,7 +23,7 @@ class Page(object):
     def get_url(self):
         return self.driver.current_url
 
-    def scroll_to_elemet(self, locator):
+    def scroll_to_element(self, locator):
         element = self.wait.until(EC.element_to_be_clickable(locator))
         scroll = ActionChains(self.driver).move_to_element(element)
         scroll.perform()
