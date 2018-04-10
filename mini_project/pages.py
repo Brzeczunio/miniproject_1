@@ -8,7 +8,7 @@ class RedirectPage(Page):
 
 class MainPage(Page):
     def select_purple_quiz(self):
-        self.scroll_to_elemet(MainPageLocatars.PURPLEQUIZ).click()
+        self.scroll_to_element(MainPageLocatars.PURPLEQUIZ).click()
 
 class PurpleQuizStartPage(Page):
     def start_purple_quiz(self):
