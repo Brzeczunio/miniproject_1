@@ -15,7 +15,7 @@ class Test(unittest.TestCase):
         self.driver.maximize_window()
         self.driver.get('http://kamil-kasprzak.com/istqb-quizzes/')
 
-    def test_Test(self):
+    def test_Purple_Quiz(self):
         redirectPage = RedirectPage(self.driver)
         redirectPage.go_to_main_page()
         mainPage = MainPage(self.driver)
